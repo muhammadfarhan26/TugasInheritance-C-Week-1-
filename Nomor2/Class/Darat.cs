@@ -13,11 +13,11 @@ namespace TugasInheritance
         {
             Console.WriteLine("Berjalan di darat");
         }
-
         public override void Bernafas()
         {
             // The body of animalSound() is provided here
-            Console.WriteLine("Bernafas dengan paru-paru");
+            Console.WriteLine("Bernafas dengan insang");
         }
+
     }
 }

@@ -13,9 +13,6 @@ namespace TugasInheritance
         {
             Console.WriteLine(NamaHewan + " Terbang di Udara");
         }
-        public void Bernafas()
-        {
-            Console.WriteLine(NamaHewan + " Bernafas");
-        }
+        
     }
 }

@@ -14,9 +14,5 @@ namespace TugasInheritance
         {
             Console.WriteLine(NamaHewan+ " Berjalan di darat");
         }
-        public void Bernafas()
-        {
-            Console.WriteLine(NamaHewan + " Bernafas");
-        }
     }
 }
