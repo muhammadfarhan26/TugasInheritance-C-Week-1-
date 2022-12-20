@@ -9,11 +9,11 @@ namespace TugasInheritance
     class Beo : Udara
     {
         String NamaHewan = "Beo";
-        public void Terbang()
+        protected void Terbang()
         {
             Console.WriteLine(NamaHewan + " Terbang di Udara");
         }
-        public void Bernafas()
+        protected void Bernafas()
         {
             Console.WriteLine(NamaHewan + " Bernafas");
         }
