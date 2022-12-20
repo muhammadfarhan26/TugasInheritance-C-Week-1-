@@ -22,9 +22,13 @@ namespace TugasInheritance
             eagle.Terbang();
             eagle.Bernafas();
             */
+
+
+            // Main Nomor 1
+            //tes presiden
             var presiden1 = new CEO
             {
-                Id = 1,
+                Id = Guid.NewGuid(),
                 Name = "Budi",
                 BirthDate = new DateTime(1994, 2, 5),
                 Address = "Jakarta",
@@ -33,12 +37,12 @@ namespace TugasInheritance
                 NamaPerusahaan = "Bakso Keliling",
                 Manager = new List<Manager>
                 {
-                new Manager { Id = 2, Name = "Joni"}
+                new Manager { Id = Guid.NewGuid(), Name = "Joni"}
                 }
             };
             var presiden2 = new CEO
             {
-                Id = 1,
+                Id = Guid.NewGuid(),
                 Name = "King",
                 BirthDate = new DateTime(1994, 2, 5),
                 Address = "Jakarta",
@@ -47,13 +51,13 @@ namespace TugasInheritance
                 NamaPerusahaan = "Kingdom",
                 Manager = new List<Manager>
                 {
-                new Manager { Id = 2, Name = "Brook"},
-                new Manager { Id = 3, Name = "Knight"}
+                new Manager {  Id = Guid.NewGuid(), Name = "Brook"},
+                new Manager {  Id = Guid.NewGuid(), Name = "Knight"}
                 }
             };
             var presiden3 = new CEO
             {
-                Id = 1,
+                Id = Guid.NewGuid(),
                 Name = "John Wick",
                 BirthDate = new DateTime(1999, 2, 4),
                 Address = "Jakarta",
@@ -62,9 +66,9 @@ namespace TugasInheritance
                 NamaPerusahaan = "PT.Mencari Cinta Sejati",
                 Manager = new List<Manager>
                 {
-                new Manager { Id = 2, Name = "John Doe"},
-                new Manager { Id = 3, Name = "John Pantau"},
-                new Manager { Id = 4, Name = "John WikWIk"}
+                new Manager {  Id = Guid.NewGuid(), Name = "John Doe"},
+                new Manager {  Id = Guid.NewGuid(), Name = "John Pantau"},
+                new Manager {  Id = Guid.NewGuid(), Name = "John WikWIk"}
                 }
             };
             presiden1.introduction();
@@ -75,7 +79,7 @@ namespace TugasInheritance
 
             var manager1 = new Manager
             {
-                Id = 1,
+                Id = Guid.NewGuid(),
                 Name = "Alpha",
                 BirthDate = new DateTime(1999, 2, 4),
                 Address = "Jakarta",
@@ -85,9 +89,9 @@ namespace TugasInheritance
                 NamaPerusahaan = "PT CUAN",
                 Staff = new List<Staff>
                 {
-                new Staff { Id = 2, Name = "Beta"},
-                new Staff { Id = 3, Name = "Charlie"},
-                new Staff { Id = 4, Name = "Delta"}
+                new Staff { Id = Guid.NewGuid(), Name = "Beta"},
+                new Staff { Id = Guid.NewGuid(), Name = "Charlie"},
+                new Staff { Id = Guid.NewGuid(), Name = "Delta"}
                 }
             };
 
@@ -97,7 +101,7 @@ namespace TugasInheritance
 
             var staff1 = new Staff
             {
-                Id = 1,
+                Id = Guid.NewGuid(),
                 Name = "A",
                 BirthDate = new DateTime(1999, 2, 4),
                 Address = "Jakarta",
@@ -107,6 +111,8 @@ namespace TugasInheritance
                 NamaPerusahaan = "PT CUAN"
             };
             staff1.introduction();
+
+
         }
     }
 }

@@ -8,7 +8,7 @@ namespace TugasInheritance.Nomor1
 {
     internal class Manager : CEO
     {
-        public int? Id { get; set; }
+        public Guid Id { get; set; }
         public string? Name { get; set; }
         public DateTime? BirthDate { get; set; }
         public string BirthDateString => BirthDate?.ToString("dd/MM/yyyy") ?? "";
