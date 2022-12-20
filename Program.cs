@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //No2
             Sapi cow = new Sapi();
 
             cow.Jalan();
@@ -18,6 +19,8 @@
 
             eagle.Terbang();
             eagle.Bernafas();
+
+
 
         }
     }
