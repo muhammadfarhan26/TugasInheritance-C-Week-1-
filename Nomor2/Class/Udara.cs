@@ -12,5 +12,10 @@ namespace TugasInheritance
         {
             Console.WriteLine("Terbang di Udara");
         }
+        public override void Bernafas()
+        {
+            // The body of animalSound() is provided here
+            Console.WriteLine("Bernafas dengan pundi-pundi udara");
+        }
     }
 }

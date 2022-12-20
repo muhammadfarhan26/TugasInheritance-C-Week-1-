@@ -10,7 +10,14 @@ namespace TugasInheritance
     {
         protected void Berenang()
         {
+
             Console.WriteLine("Berenang di Air");
+        }
+
+        public override void Bernafas()
+        {
+            // The body of animalSound() is provided here
+            Console.WriteLine("Bernafas dengan insang");
         }
     }
 }

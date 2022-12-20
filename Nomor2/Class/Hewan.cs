@@ -7,10 +7,6 @@ using System.Threading.Tasks;
 namespace TugasInheritance
 {
     class Hewan
-    {
-        public void Bernafas()
-        {
-            Console.WriteLine("Bernafas");
-        }
+        public abstract void Bernafas();
     }
 }
